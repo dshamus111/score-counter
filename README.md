@@ -5,9 +5,9 @@ packages used (you may have to pip install in order for the script to work):
   tinydb - pip install tinydb  
 
 Arguments:\
-w - increments the win counter\
-l - increments the loss counter\  
-r - resets the counter back to 0 wins and 0 losses\
+w - increments the win counter  
+l - increments the loss counter  
+r - resets the counter back to 0 wins and 0 losses  
 
 example: "python score_adjust.pyw w"  
 *Argument is required in order to run script
@@ -24,11 +24,11 @@ Hotkey Instructions:
 OBS Instructions:
   1. Create Text component and point to winloss.txt in order to display score
 
-Formatting:
-  If you want to customize the text that appears in winloss.txt, simply edit the format.txt file with your custom message
-  Special data:
-    %wins - total number of wins
-    %losses - total number of losses
-    %total - total number of games
+Formatting:  
+  If you want to customize the text that appears in winloss.txt, simply edit the format.txt file with your custom message.  
+  Special data:  
+    %wins - total number of wins  
+    %losses - total number of losses  
+    %total - total number of games  
   
   example: Out of %total games, there are %wins wins and %losses losses!
