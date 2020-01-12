@@ -4,10 +4,10 @@ Small Python script and helper files that allow you to increment and reset win/l
 packages used (you may have to pip install in order for the script to work):  
   tinydb - pip install tinydb  
 
-Arguments:  
-w - increments the win counter  
-l - increments the loss counter  
-r - resets the counter back to 0 wins and 0 losses  
+Arguments:\
+w - increments the win counter\
+l - increments the loss counter\  
+r - resets the counter back to 0 wins and 0 losses\
 
 example: "python score_adjust.pyw w"  
 *Argument is required in order to run script
