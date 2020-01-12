@@ -25,7 +25,9 @@ OBS Instructions:
   1. Create Text component and point to winloss.txt in order to display score
 
 Formatting:  
+
   If you want to customize the text that appears in winloss.txt, simply edit the format.txt file with your custom message.  
+
   Special data:  
     %wins - total number of wins  
     %losses - total number of losses  
