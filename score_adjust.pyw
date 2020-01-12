@@ -1,6 +1,5 @@
 from tinydb import TinyDB, Query
 import sys
-import fileinput
 
 db = TinyDB('scoredb.json')
 Score = Query()
